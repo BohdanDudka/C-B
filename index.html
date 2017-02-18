@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body id="Scrolling">
-        <a href="#" class="scrollLink">Top</a> <!-- Scroll -->
+        <a href="#" class="scrollLink"><i class="fa fa-chevron-up" aria-hidden="true"></i></a> <!-- Scroll -->
         <div class="wrapper">
             <div class="container__header">
                 <header class="header">
@@ -157,14 +157,14 @@
             <div class="container__subscribe">
                 <div class="subscribe">
                     <div class="subscribe__info">
-                    	<div class="info">
-                        	<p class="subscribe__definition">subscribe</p>
-                        	<h2 class="subscribe__heading">stay updated on news</h2>
+                        <div class="info">
+                            <p class="subscribe__definition">subscribe</p>
+                            <h2 class="subscribe__heading">stay updated on news</h2>
                         </div>
                         <form class="subscribe__form" id="myform"> <!-- checking EMAIL form -->
-                        	<div class="b-form__message b-form__message_error">Data isn't correct</div>
-                        	<input type="text" name="email" placeholder="Your email adrress" class="subscribe__input">
-                        	<i class="fa fa-chevron-right" aria-hidden="true"><input type="submit" name="confirm" value="" class="subscribe__submit"></i>
+                            <div class="b-form__message b-form__message_error">Data isn't correct</div>
+                            <input type="text" name="email" placeholder="Your email adrress" class="subscribe__input">
+                            <i class="fa fa-chevron-right" aria-hidden="true"><input type="submit" name="confirm" value="" class="subscribe__submit"></i>
                         </form>
                     </div> 
                 </div>
@@ -205,7 +205,7 @@
             var Scroll_1 = new Scroll("#Scrolling");
         </script>
         <script>
-        	var MyForm = new formChecker("#myform");
+            var MyForm = new formChecker("#myform");
         </script>
     </body>
 </html>
